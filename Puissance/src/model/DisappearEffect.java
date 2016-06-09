@@ -11,12 +11,13 @@ package model;
  */
 public class DisappearEffect extends Effect {
 
-   
-
-    DisappearEffect() {
-        
-    }
-
+   /**
+    * 
+    * @param line correspond a la ligne joué
+    * @param column correspond a la colonne joué
+    * @param game correspond au modèle du jeu
+    */
+    
     @Override
     public void playEffect(int line, int column, Game game) {
         

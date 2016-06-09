@@ -32,6 +32,8 @@ public class EffectFactory {
                 return new ChangeColorEffect();
             case 1:
                 return new DisappearEffect();
+            //case 2:
+            //   return new RandomEffect();
         }
 
         return null;
